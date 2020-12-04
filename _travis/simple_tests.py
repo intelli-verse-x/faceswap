@@ -7,6 +7,9 @@ For this we want another set of testcases using pytest.
 Due to my lazy coding, DON'T USE PATHES WITH BLANKS !
 """
 
+import lib.http_session
+import lib.transport
+import lib.session
 import sys
 from subprocess import check_call, CalledProcessError
 import urllib
