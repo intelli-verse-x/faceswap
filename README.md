@@ -1,5 +1,11 @@
 # deepfakes_faceswap
 
+> **IntelliVerse-X fork** (`intelli-verse-x/faceswap`)  
+> **Purpose:** research + **offline HQ training** (extract → train → convert) for owned / consented characters.  
+> **Not for CF runtime import:** Content Factory does **not** vendor or import this tree (CF is MIT; this fork stays **GPL-3.0** — see [`LICENSE`](LICENSE)).  
+> **Ethics:** consent-only — see [`INTELLIVERSE.md`](INTELLIVERSE.md) and the Manifesto below.  
+> Upstream: [deepfakes/faceswap](https://github.com/deepfakes/faceswap).
+
 ### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120
 
 <p align="center">
