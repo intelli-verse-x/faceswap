@@ -72,9 +72,9 @@ jobs:
           pip install wheel pytest-xvfb types-attrs types-cryptography types-pyOpenSSL
       - name: Lint with flake8
         run: |
-          # stop the build if there are Python syntax errors or undefined names
-          flake8 . --select=E9,F63,F7,F82 --show-source
-          flake8 . --exit-zero
+          # Check all tracked Python source, excluding Conda's generated environment.
+          git ls-files -z -- '*.py' | xargs -0 flake8 --select=E9,F63,F7,F82 --show-source
+          git ls-files -z -- '*.py' | xargs -0 flake8 --exit-zero
       - name: MyPy Typing
         continue-on-error: true
         run: |

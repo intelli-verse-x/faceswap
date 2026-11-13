@@ -71,3 +71,5 @@
 !lib/gui/**/presets/train/model_phaze_a_lightweight_preset.json
 !lib/gui/**/presets/train/model_phaze_a_original_preset.json
 !lib/gui/**/presets/train/model_phaze_a_stojo_preset.json
+config.bat
+node_modules
